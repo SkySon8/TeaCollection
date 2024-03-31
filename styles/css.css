@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Arial';
+}
+
+body {
+    font-family: Arial,sans-serif;
+}
+
+
+.text-bg-dark {
+    background-color: #F8F9FA!important;
+}
+
+.text-white {
+    color: #00000099!important;
+}
+
+.text-black {
+    color: #000!important;
+    font-weight: bold;
+}
+
+.text-secondary:hover {
+    color: #000!important;
+}
+
+.navbar {
+    margin: 0 0 72px 0;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../images/стрелкаLeft.png");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/стрелкаRight.png");
+}
+
+.slick-next {
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../images/стрелкаRight.png");
+}
+
+.slick-prev {
+    left: 19px;
+    background-image: url("../images/стрелкаLeft.png");
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+.cards h2 {
+    margin: 72px 0 50px 0;
+    font-size: 32px;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.btn-card {
+    width: 170px;
+    height: 37px;
+}
+
+.cards .container {
+    max-width: 1300px;
+}
+
+.accordion-flush {
+    border-radius: 10px;
+}
+
+.accordion-section .container {
+    max-width: 856px;
+}
+
+
+.ui-accordion .ui-accordion-content {
+    border: none;
+}
+
+.ui-accordion .ui-accordion-header {
+    padding: 25px 0;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: none;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.ui-accordion .ui-accordion-header {
+    margin: 16px 0;
+}
+
+.accordion-h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin: 73px 0 50px 0;
+}
+
+.accordion-item {
+    background: #FFF;
+}
+
+.accordion-button {
+    background: linear-gradient(0deg, #076BFF 0%, #007BFF 100%);
+    color: #FFF;
+    height: 68px;
+}
+
+.accordion-item {
+    margin-bottom: 16px!important;
+    border-radius: 10px!important;
+}
+
+.accordion-button {
+    border-radius: 10px!important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/next4.png");
+    transform: rotate(360deg);
+}
+
+.accordion-button::after {
+    background-image: url("../images/next 3.png");
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFF;
+}
+
+.order-section h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin: 56px 0 60px 0;
+}
+
+.order-section .container {
+    max-width: 636px;
+}
+
+.btn-order {
+    width: 156px;
+    height: 38px;
+}
+
+.footer {
+    margin-top: 98px;
+    background: #F8F9FA!important;
+}
+
+.ui-icon {
+    background-image: url("../images/next 3.png");
+    width: 20px;
+    height: 20px;
+    z-index: 11;
+    background-position: center;
+    transition: all .3s;
+}
+
+.ui-icon:hover {
+    display: block;
+}
+
+.ui-state-active .ui-icon {
+    background-image: url("../images/next4.png");
+    transform: rotate(360deg);
+}
+
+#accordion h3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    background: #007fff;
+    color: #FFF;
+}
+
+
+
+
+
+
+
